@@ -1,0 +1,2 @@
+Start json server --> Open CMD --> "json-server --watch db.json"
+db file created in location --> "C:\Users\Rahul"
