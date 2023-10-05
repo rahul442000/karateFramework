@@ -13,6 +13,7 @@ public class TestRunnerParallel {
     public void testParallel() {
         Results results = Runner.path("classpath:automation/allFeatures").tags("@smoke").parallel(5);
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
+  
     }
 
 }
